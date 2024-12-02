@@ -1,5 +1,6 @@
 {
 	"name": "hydrater",
+	"homepage": "https://kanesada2.github.io/hydrater/",
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
@@ -7,7 +8,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"deploy": "gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -17,6 +19,7 @@
 		"autoprefixer": "^10.4.20",
 		"flowbite": "^2.5.2",
 		"flowbite-svelte": "^0.47.4",
+		"gh-pages": "^6.2.0",
 		"postcss": "^8.4.49",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
