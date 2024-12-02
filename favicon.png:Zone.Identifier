@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://raw.githubusercontent.com/sveltejs/kit/refs/heads/main/packages/kit/test/apps/basics/static/favicon.png
+HostUrl=https://raw.githubusercontent.com/sveltejs/kit/refs/heads/main/packages/kit/test/apps/basics/static/favicon.png
